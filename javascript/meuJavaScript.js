@@ -157,3 +157,9 @@ while(!pali){
 }
 
 //checar se os 3 primeiros caracteres são iguais aos 3 ultimos.
+var palavra = prompt("Digite uma palavra");
+var tam = palavra.length;
+
+if(tam>=6 && palavra[0]==palavra[tam-1] && palavra[1]==palavra[tam-2] && palavra[2]==palavra[tam-3]){
+    
+}
